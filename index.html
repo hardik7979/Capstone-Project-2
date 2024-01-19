@@ -13,17 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Ubuntu', sans-serif;">
+<body>
     <!-- Navigation Bar -->
     <section id="navbar">
         <nav class="background-blue-gradient navbar fixed-top navbar-expand-lg border-bottom" >
             <div class="container-fluid">
-              <a class="navbar-brand ms-2 p-0 me-0" href="#"><img src="assets/images/logo.png" width=50px style="border-radius: 50%;"></a>
+              <a class="navbar-brand ms-2 p-0 me-0" href="#"><img class="circle-img" src="assets/images/logo.png" width=50px></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="justify-content-center collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-5 mb-2 mb-lg-0" style="color: #191919; font-weight: 500;">
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0 font-bold">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#introduction">Introduction</a>
                   </li>
@@ -35,7 +35,7 @@
                   <a class="nav-link" aria-current="page" href="#work-experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#past-projects" style="color: #fff;">Projects</a>
+                <a class="nav-link focus-color-white" aria-current="page" href="#past-projects">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
@@ -52,12 +52,12 @@
     <!-- Title Page -->
     <section id="title" class="background-blue-gradient">
         <div class="container pt-5 px-5 text-center">
-            <h4 class="mt-5" style="font-weight: 500;">Hello, visitor.</h4>
+            <h4 class="mt-5">Hello, visitor.</h4>
             <div class="col-lg-6 mx-auto pt-2">
-              <h1 class="lead mb-4 display-3" style="font-weight: bolder;">I'm <span style="text-decoration: underline; color: #fff;">Hardik!</span> </h1>
+              <h1 class="lead mb-4 display-3 font-bolder">I'm <span class="text-underline focus-color-white">Hardik!</span> </h1>
             </div>
             <div class="overflow-hidden pt-4">
-              <div class="container p-0">
+              <div class="container px-5">
                 <img src="assets/images/main-it-guy.gif" class="img-fluid border rounded-3 shadow-lg" alt="I am just the IT guy - GIF" width="500px">
               </div>
             </div>
@@ -67,12 +67,11 @@
     <!-- Introduction -->
     <section id="introduction" class="background-gray-gradient">
             <div class="p-5 text-center rounded-3">
-              <div class="container-xs pb-4"><img src="assets/images/Hardik.jpg" alt="Hardik's Image" class="img-fluid border shadow-lg" style="border-radius: 50%; max-width: 45%;"></div>
+              <div class="container-xs pb-4 px-5"><img src="assets/images/Hardik.jpg" alt="Hardik's Image" class="img-fluid border shadow-lg circle-img max-width-40"></div>
               <h1 class="mt-3 text-body-emphasis">Programmer / I.T. Specialist</h1>
-              <p class="col-lg-8 mx-auto fs-5 pt-2 text-muted">
+              <p class="col-lg-8 mx-auto fs-5 pt-3 text-muted">
                 I have always been keen on understanding and utilizing current technologies to create new projects. My recent interest has been towards <span>full-stack web development</span>. I currently work as an <span>IT Specialist</span> <img src="assets/svgs/shield-fill-check.svg" alt="Shield with a Checkmark" height="18">.
               </p>
-
             </div>
           </div>
     </section>
@@ -194,7 +193,7 @@
             </div>
             <div class="row">
             <div class="col d-flex flex-column align-items-center justify-content-center">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 width-18rem">
                     <img src="assets/images/tindog.png" height=200px class="card-img-top" alt="TinDog Website">
                     <div class="card-body">
                       <h5 class="card-title">TinDog - Dogs Dating App</h5>
@@ -204,7 +203,7 @@
                 </div>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center gap-2">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 width-18rem">
                   <img src="assets/images/mondrian.png" height=200px class="card-img-top" alt="Mondrian Painting">
                   <div class="card-body">
                     <h5 class="card-title">Mondrian Painting</h5>
@@ -225,11 +224,11 @@
           <div class="row">
             <div class="col-md-6 text-center my-5" >
             <h1 class="text-body-emphasis pb-3 me-4">About me!</h1>
-            <img src="assets/images/write-that-done.gif" class="img-fluid" style="width: 14rem;" alt="Write That Down GIF">
+            <img src="assets/images/write-that-done.gif" class="img-fluid width-18rem" alt="Write That Down GIF">
             </div>
-            <div class="col-md-6 my-5"  style="display:flex;align-items:center;">
+            <div class="col-md-6 my-5 flex-align-center">
             <ul class="mx-auto fs-5 text-muted pt-5">
-              <li>I love trying new cuisine. <a type="button" href="#contact-me" style="text-decoration: none;"><span>Hit me up</span></a> if you know a great restaurant.!</li>
+              <li>I love trying new cuisines. <a class="text-no-underline" type="button" href="#contact-me"><span>Hit me up</span></a> if you know a great restaurant.!</li>
               <li>I am always ready to go on long drives.</li>
               <li>Love travelling and exploring natural habitats.</li>  
               <li>I have also recently gotten fond of working out.</li>
@@ -247,9 +246,9 @@
         </svg>
         <h3 class="display-5 fw-bold text-body-emphasis pt-2">Contact Me!</h3>
         <div class="col-lg-6 mx-auto pt-2">
-          <p class="lead mb-4">Wanna have a chat about lifestyle, food, or travels? Feel free to reach out to e!</p>
+          <p class="lead mb-4">Wanna have a chat about lifestyle, food, or travels? Feel free to reach out to me!</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a type="button" class="btn btn-lg px-4 gap-3" style="background-color: hsla(211, 92%, 53%, 1); color: white;" href="mailto:hardik7707+portfolio@gmail.com">Contact Me.</a>
+            <a type="button" class="btn btn-lg px-4 gap-3 focus-color-white background-blue" href="mailto:hardik7707+portfolio@gmail.com">Contact Me.</a>
           </div>
         </div>
       </div>
