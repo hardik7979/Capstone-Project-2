@@ -3,34 +3,70 @@
     height: 3rem;
 }
 
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 span{
     color: hsla(211, 92%, 53%, 1); 
     font-weight: bold;
 }
 .background-blue-gradient{
     background: hsla(211, 92%, 53%, 1);
-
     background: radial-gradient(circle, #1983f5 0%, hsla(0, 0%, 100%, 1) 100%);
-
     background: -moz-radial-gradient(circle, hsla(211, 92%, 53%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
     background: -webkit-radial-gradient(circle, hsla(211, 92%, 53%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1883F5", endColorstr="#FFFFFF", GradientType=1 );
 }
 
 .background-gray-gradient{
     background: hsla(0, 0%, 89%, 1);
-
     background: radial-gradient(circle, hsla(0, 0%, 89%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
     background: -moz-radial-gradient(circle, hsla(0, 0%, 89%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
     background: -webkit-radial-gradient(circle, hsla(0, 0%, 89%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E2E2E2", endColorstr="#FFFFFF", GradientType=1 );
 }
 
 .nav-link{
     color: black;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+.font-bold{
+    font-weight: 500;
+}
+.font-bolder{
+    font-weight: bolder;
+}
+
+.focus-color-white{
+    color: #fff;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.max-width-40{
+    max-width: 40%;
+}
+
+.width-18rem{
+    width: 18rem;
+}
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.text-no-underline{
+    text-decoration: none;
+}
+
+.background-blue{
+    background-color: hsla(211, 92%, 53%, 1);
 }
